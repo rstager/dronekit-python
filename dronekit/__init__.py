@@ -53,6 +53,7 @@ from dronekit.util import errprinter
 from pymavlink import mavutil, mavwp
 from pymavlink.dialects.v10 import ardupilotmega
 
+veridis=True
 
 class APIException(Exception):
     """
